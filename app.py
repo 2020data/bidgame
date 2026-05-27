@@ -84,7 +84,7 @@ if st.button("🎲 開獎！", use_container_width=True):
         time.sleep(0.5)
         banker_number = random.randint(0, 1000)
     
-    st.info(開獎結果：莊家的數字是 【{banker_number}】)
+    st.info(開獎結果莊家的數字是 【{banker_number}】)
     
     # 判斷大小
     is_big = banker_number > 500
